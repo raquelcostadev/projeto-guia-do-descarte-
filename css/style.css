@@ -24,7 +24,7 @@ header {
 }
 
 .menu-navegacao {
-    background-color: #2e7d32; /* Verde Sustentável */
+    background-color: #2e7d32; 
     padding: 15px 0;
     margin-bottom: 20px;
 }
@@ -52,8 +52,8 @@ header {
     margin: 10px 0;
 }
 .logo-topo img {
-    width: 130px;      /* Controla a largura do seu novo logo */
-    height: auto;     /* Mantém a proporção certinha para não achatar */
+    width: 130px;      
+    height: auto;     
     object-fit: contain;
 }
 
@@ -66,12 +66,12 @@ h1 span {
     color: #2e7d32;
 }
 
-/* 2. REGRA DO MAIN ADICIONADA: Faz o conteúdo esticar e empurrar o footer */
+
 main {
     flex: 1;
 }
 
-/* Seção Hero e Busca */
+
 .hero {
     padding: 50px 20px;
     text-align: center;
@@ -104,7 +104,7 @@ button:hover {
     background-color: #1b5e20;
 }
 
-/* Container de Cards (Suas Ações) */
+
 #container-do-descarte {
     display: flex;
     justify-content: center;
@@ -167,7 +167,7 @@ footer p {
     font-size: 0.9rem;
 }
 
-/* Responsividade */
+
 @media (max-width: 600px) {
     #campo-busca {
         width: 200px;
