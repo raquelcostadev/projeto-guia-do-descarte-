@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoHub: Impacto Positivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu-navegacao">
+            <a href="index.html" class="ativo">📱 Início</a>
+            <a href="sobre.html">📖 Sobre</a>
+            <a href="acoes.html">✅ Ações</a>
+        </nav>
+        <div class="logo-topo">
+            <img src="img/ecologia.webp" alt="ecoHub logo">
+            </div>
+        <h1>Eco<span>Hub</span></h1>
+        <p>Transforme seu descarte em impacto positivo.</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>O que deseja descartar hoje?</h2>
+                <p>Pequenas atitudes no dia a dia preservam o nosso futuro.</p>
+                
+                <div class="search-container">
+                    <input type="text" id="campo-busca" placeholder="Ex: Pilha, Garrafa...">
+                    <button type="button" onclick="buscarMaterial()">Buscar</button>
+                </div>
+            </div>
+        </section>
+        <section id="container-do-descarte">
+    <div class="card escondido" id="plastico">
+        <div class="icon">🥤</div>
+        <h3>Plástico</h3>
+        <p>Garrafas, embalagens e recipientes limpos.</p>
+    </div>
+
+    <div class="card escondido" id="papel">
+        <div class="icon">📄</div>
+        <h3>Papel</h3>
+        <p>Folhas, caixas de papelão e jornais secos.</p>
+    </div>
+     <div class="card escondido" id="eletronico">
+        <div class="icon">🔋</div>
+        <h3>Eletrônicos</h3>
+        <p>Pilhas, baterias e pequenos aparelhos.</p>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p><strong>Equipe:</strong> EcoHub Educação Ambiental</p>
+        <p>&copy; Projeto Integrador - 2026 - Raquel Costa</p>
+    </footer>
+   <script src="js/script.js"></script>
+</body>
+</html>
